@@ -1,0 +1,33 @@
+.headContainer {
+    display: flex;
+    color: #FAFAFA;
+    justify-content: space-between;
+    padding-top: 4rem;
+    align-content: flex-end;
+
+}
+
+.leftHead {
+    display: flex;
+    gap: 5rem;
+    padding-left: 10rem;
+    align-items: center;
+}
+
+.leftNav {
+    display: flex;
+    gap: 3rem;
+
+}
+
+
+.rightHead {
+    padding-right: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightHead button {
+    align-self: flex-end;
+}
