@@ -12,9 +12,9 @@ const Nav = () => {
                 </div>
 
                 <div className="leftNav">
-                    <Link href="/">Home</Link>
+                    <Link href="/">home</Link>
 
-                    <Link href="/about">About</Link>
+                    <Link href="/about">about</Link>
                 </div>
             </div>
             {/* this is the end of the left side */}
@@ -23,7 +23,7 @@ const Nav = () => {
             <div className="rightHead">
 
                 <button>
-                    <Link href="/contact">Contact</Link>
+                    <Link href="/contact">contact us</Link>
                 </button>
 
             </div>

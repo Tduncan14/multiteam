@@ -1,0 +1,121 @@
+.upperHeader {
+    display: flex;
+    margin-top: 8rem;
+    gap: 3rem;
+    position: relative;
+    overflow: hidden;
+    height: fit-content;
+
+}
+
+.thisupperHone {
+    font-size: 92px;
+    padding-left: 10rem;
+    flex: 1;
+    font-weight: 700;
+    color: #fafafa;
+    padding-bottom: 10rem;
+}
+
+.thisupperHone span {
+    color: #FF7F7F;
+}
+
+
+.thisupperPara {
+    padding-right: 10rem;
+    flex: 1;
+}
+
+
+.bg-pattern-homePatternOne {
+    position: absolute;
+    top: 10px;
+    left: -8%;
+}
+
+
+.bg-pattern-homeTwo {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+}
+
+
+.thisupperPara {
+    display: flex;
+    flex-direction: column;
+    padding-top: .4rem;
+    justify-content: stretch;
+
+
+}
+
+.thisupperPara p {
+
+    color: #fafafa;
+    padding: 2rem;
+    justify-self: center;
+    margin-top: 4rem;
+    line-height: 35px;
+
+
+
+}
+
+/* end up the upperHome section */
+
+
+/* start of the midHeader */
+
+
+
+.midHeader {
+    background-color: #012F34;
+    height: 100vh;
+    width: 100%;
+    color: #fafafa;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+}
+
+
+.leftY {
+    padding-left: 10rem;
+    flex: 1;
+}
+
+.leftY h1 {
+    font-size: 54px;
+    line-height: 52px;
+    font-weight: 700;
+
+}
+
+
+
+.rightyyIcons {
+    padding-right: 10rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rightyyIcons .Icons {
+    display: flex;
+    gap: 20px;
+}
+
+.rightyyIcons .img {
+    object-fit: cover;
+}
+
+.IconsHone h2 {
+    margin-bottom: 1rem;
+}
