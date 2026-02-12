@@ -41,7 +41,7 @@ export default function Home() {
 
 
           <h1>
-            Build manage distributed teams
+            Build & manage distributed teams
             like no one else.
           </h1>
         </div>

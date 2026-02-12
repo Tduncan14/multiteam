@@ -78,8 +78,7 @@
     display: flex;
     gap: 3rem;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 8rem;
+    padding-top: 9rem;
     padding-bottom: 8rem;
 
 }
@@ -109,13 +108,23 @@
 
 .rightyyIcons .Icons {
     display: flex;
-    gap: 20px;
+    gap: 35px;
 }
 
-.rightyyIcons .img {
-    object-fit: cover;
+.rightyyIcons img {
+    object-fit: contain;
+    width: auto;
+    height: 5rem;
 }
 
 .IconsHone h2 {
     margin-bottom: 1rem;
+    color: #FF7F7F;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.IconsHone p {
+    line-height: 32px;
+    color: #fafafa;
 }
