@@ -84,6 +84,8 @@
 }
 
 
+
+
 .leftY {
     padding-left: 10rem;
     flex: 1;
@@ -127,4 +129,65 @@
 .IconsHone p {
     line-height: 32px;
     color: #fafafa;
+}
+
+
+/* end MidContent */
+
+.homeEnd {
+    height: 100vh;
+    padding: 8rem;
+    margin-bottom: 10rem;
+    color: #fafafa;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.homeEnd p {
+    line-height: 35px;
+}
+
+.gallerySuccess {
+    height: fit-content;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 3.5rem;
+    justify-content: center;
+}
+
+.successStory img {
+    align-self: center;
+    justify-self: center;
+    border-radius: 50%;
+    border: solid 4px #79c8c7;
+    margin-top: 2rem;
+    height: 7rem;
+    width: 7rem;
+}
+
+.successStory h3 {
+    color: #79c8c7;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.homeEnd h1 {
+    text-align: center;
+
+}
+
+
+
+.titleName {
+    font-size: clamp(35px, 40px, 42px);
+    font-weight: 700;
+    color: #fafafa;
+    margin-bottom: 4rem;
+}
+
+.titleName span {
+    color: #79c8c7;
 }

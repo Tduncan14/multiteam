@@ -1,0 +1,25 @@
+.footerCarousel {
+    background: #FF7F7F;
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    color: #002529;
+}
+
+
+.footerCarousel h1 {
+    font-size: clamp(37px, 44px, 45px);
+    font-weight: 900;
+}
+
+.footerCarousel button {
+    align-self: flex-end;
+    font-weight: 700;
+    border: 3px solid #002529;
+    border-radius: 20px;
+    padding: .5rem;
+    padding-left: 2.7rem;
+    padding-right: 2.7rem;
+}
