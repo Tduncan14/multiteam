@@ -1,0 +1,23 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    color: #f7f7f7;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 7rem;
+}
+
+
+.upperAbout {
+    display: flex;
+}
+
+
+.upperAboutLeft {
+    flex: 1;
+}
+
+
+.upperAboutRight {
+    flex: 1;
+}
