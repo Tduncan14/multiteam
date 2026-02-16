@@ -1,3 +1,52 @@
 .footerContainer {
     background-color: #002529;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    color: #f7f7f7;
+    align-items: stretch;
+}
+
+.footLeftRight {
+    display: flex;
+}
+
+.footLeft {
+    display: flex;
+    gap: 4rem;
+}
+
+.footerLeftnav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.footerSocialIconsGallery {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+/* ✅ add this */
+.footRight {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ✅ change this */
+.footRight p {
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+
+.footLeftLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLeftnav {
+    margin-top: auto;
 }
