@@ -34,49 +34,61 @@ const About = () => {
 
                 <div className="directorsContainer">
 
-                    <h1> Meet the directors</h1>
+                    <h1 className="directTop"> Meet the directors</h1>
 
 
                     <div className="directorsGalleries">
 
                         <div className="directorGallery">
-                            <img src='/assets/avatar-nikita.jpg' />
+                            <img className='avatarDi' src='/assets/avatar-nikita.jpg' />
                             <h1> Nikita Marks</h1>
                             <h3>Founder & CEO</h3>
+
+                            <button> <img className="cross" src='/assets/icon-cross.svg' /></button>
                         </div>
 
 
                         <div className="directorGallery">
-                            <img src='/assets/avatar-christian.jpg' />
+                            <img className='avatarDi' src='/assets/avatar-christian.jpg' />
                             <h1> Cristian Duncan</h1>
                             <h3>Co-founder & COO</h3>
+
+                            <button> <img className="cross" src='/assets/icon-cross.svg' /></button>
                         </div>
 
 
                         <div className="directorGallery">
-                            <img src='/assets/avatar-cruz.jpg' />
+                            <img className='avatarDi' src='/assets/avatar-cruz.jpg' />
                             <h1> Cruz Hamer</h1>
                             <h3>Co-founder & CTO </h3>
+
+
+                            <button> <img className="cross" src='/assets/icon-cross.svg' /></button>
                         </div>
 
                         <div className="directorGallery">
-                            <img src='/assets/avatar-drake.jpg' />
+                            <img className='avatarDi' src='/assets/avatar-drake.jpg' />
                             <h1> Drake Heaton</h1>
                             <h3>Business Development Lead</h3>
+
+                            <button> <img className="cross" src='/assets/icon-cross.svg' /></button>
                         </div>
 
 
                         <div className="directorGallery">
-                            <img src='/assets/avatar-griffin.jpg' />
+                            <img className='avatarDi' src='/assets/avatar-griffin.jpg' />
                             <h1> Griffin Wise</h1>
                             <h3>Lead Marketing </h3>
+
+                            <button> <img className="cross" src='/assets/icon-cross.svg' /></button>
                         </div>
 
 
                         <div className="directorGallery">
-                            <img src='/assets/avatar-aden.jpg' />
+                            <img className='avatarDi' src='/assets/avatar-aden.jpg' />
                             <h1> Aden Allan</h1>
                             <h3>Lead Marketing</h3>
+                            <button> <img className="cross" src='/assets/icon-cross.svg' /></button>
                         </div>
 
 
